@@ -1,0 +1,61 @@
+</!DOCTYPE html>
+<html>
+<head lang="en">
+	<title>Web Store</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./invcss.css">
+  <script type="text/javascript">
+    var totalcost= 0.0;
+    console.log(totalcost);
+  	function addCost(x)
+    {
+      var totalcost1 = (parseFloat(totalcost) + parseFloat(x)).toFixed(3);
+      totalcost=totalcost1;
+      console.log(totalcost1);
+      console.log(x);
+      document.getElementById("totalprice").innerHTML=totalcost;
+    }
+  </script>
+</head>
+<body>
+	<div class="container-fluid my-bg">
+    <div class="bg-cover">
+      <div class="container">
+        <div class="row my-title1">
+          <div class="col align-self-center d-flex justify-content-center">
+            <img src="./myLogo.png" class="my-img">
+          </div>
+        </div>
+        <div class="row my-title2">
+          <div class="col d-flex justify-content-center">
+            <div class="my-block">
+              <div class="my-font d-flex justify-content-center">
+                <p class="timesNR" style="padding-top: 5px;">Pay your Bouquet with lightening network</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="my-invoice-cover d-flex justify-content-center">
+          <div class="inv-title d-flex justify-content-center">
+            Copy Paste and Pay!
+          </div>
+        </div>
+        <div class="d-flex justify-content-center" style="padding-bottom: 100px;">
+          <div class="inv-text d-flex justify-content-center">
+            <p>lntb250n1pdt2p9qpp5hzrfgfh6r5ny20ju56hpmzkv6yt56dueldkqkseukev06smcttasdq0v9j8wct5vd5x2uscsqzysduhgkhryql5kee6wzz2htrxwp3kpc05sw2mdukwsqzxdywfpxa2t44apa7c9caarr42gh8y9e8jzkxd7tkyjtqm7l5zv33hvk3nj4p0qq5t8p0f</p>
+          </div>
+        </div>
+      </div>
+      
+        </div>
+       
+      </div>
+      
+    </div>
+  </body>
+</html>
